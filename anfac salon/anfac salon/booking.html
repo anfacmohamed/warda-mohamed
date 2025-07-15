@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Anfac Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Anfac Salon</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section>
+            <h2>Book Your Appointment</h2>
+            <form>
+                <fieldset>
+                    <legend>Booking Form</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name"><br>
+
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service">
+                        <option value="cilaan">cilaan</option>
+                        <option value="cijiyo saaris">cijiyo saaris</option>
+                        <option value="timo dabis">timo dabis</option>
+                    </select><br>
+
+                    <label for="stylist">Choose Stylist:</label>
+                    <select id="stylist" name="stylist">
+                        <option value="caisha">caisha</option>
+                        <option value="warda">warda</option>
+                        <option value="caliya">caliya</option>
+                    </select><br>
+
+                    <label for="datetime">Preferred Date & Time:</label>
+                    <input type="datetime-local" id="datetime" name="datetime" required><br>
+
+                    <input type="hidden" name="gender" value="female">
+
+                    <p>Hobbies (optional):</p>
+                    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="yoga" name="hobbies" value="Yoga">
+                    <label for="yoga">Yoga</label><br>
+
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Anfac beauty Salon</p>
+    </footer>
+</body>
+</html>

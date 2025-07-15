@@ -1,0 +1,66 @@
+
+/* Main stylesheet for Anfac Salon */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffafc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #f7d4e2;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+main {
+    padding: 1rem;
+}
+img {
+    width: 200px;
+    height: auto;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, select, textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+fieldset {
+    border: 1px solid #f7d4e2;
+    padding: 1rem;
+}
+input[type="submit"] {
+    background-color: #e88cb6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #d672a6;
+}
